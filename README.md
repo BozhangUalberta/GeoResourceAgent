@@ -1,6 +1,5 @@
 # GeoResourceAgent
-University of Alberta [GeoResource Cloud Research Group]([url](https://www.georesourcecloud.com/))
-
+University of Alberta GeoResource Cloud Research Group (https://www.georesourcecloud.com/)
 Current collaborators:
 Yiding Sun
 Rahhim Khan

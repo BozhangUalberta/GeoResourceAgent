@@ -11,6 +11,11 @@
 - Vite (Build tool)
 - Tailwind (CSS framework)
 
+### src
+- older agent, not compatible with current agent
+- agents ready
+- tools in the integration have all tools
+
 ## WebSocket Logic
 
 ### 1. User Authentication and Conversation Selection

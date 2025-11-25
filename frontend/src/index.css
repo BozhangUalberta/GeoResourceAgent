@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html, body, #root, .App {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* 只让 track 透明，thumb 半透明 */
+.transparent-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background: transparent; /* 整体滚动条背景 */
+}
+.transparent-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* 轨道底色透明 */
+}
+.transparent-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.16); /* 把手半透明深色，适合白色底 */
+  border-radius: 8px;
+}
